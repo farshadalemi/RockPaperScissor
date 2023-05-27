@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-logo {
+  width: 30%;
+  padding-top: 5%;
+  padding-left: 36%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.game-title {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 20px;
+  padding-top: 0%;
+  padding-left: 38%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.game-section {
+  padding-top: 2%;
+  padding-left: 39%;
+  padding-right: 10%;
+  padding-bottom: 0%;
+}
+
+.score-section {
+  padding-top: 10%;
+  padding-left: 42%;
+  padding-right: 10%;
+  padding-bottom: 0%;
+}
+
+.game-btn {
+  border: none;
+  background: #343434;
+  color: #fff;
+  padding: 10px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+button:hover {
+  color: #ff59f1;
+  border: #ff59ee solid 1px;
+  background: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600;
+    margin: 0 auto;
+  }
+
+  .img-logo {
+    width: 20%;
+    padding-top: 5%;
+    padding-left: 40%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+  }
+
+  .game-title {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 30px;
+    padding-top: 0%;
+    padding-left: 38%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+
+  .game-section {
+    padding-top: 0%;
+    padding-left: 43%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+  }
+
+  .score-section {
+    padding-top: 5%;
+    padding-left: 44%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+  }
+
+  .game-btn {
+    border: none;
+    background: #343434;
+    color: #fff;
+    padding: 10px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+  }
+
+  button:hover {
+    color: #ff59f1;
+    border: #ff59ee solid 1px;
+    background: #fff;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .wrapper {
+      width: 600;
+      margin: 0 auto;
+    }
+
+    .img-logo {
+      width: 10%;
+      padding-top: 5%;
+      padding-left: 46%;
+      padding-right: 0%;
+      padding-bottom: 2%;
+    }
+
+    .game-title {
+      font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+      font-size: 30px;
+      padding-top: 0%;
+      padding-left: 45%;
+      padding-right: 10%;
+      padding-bottom: 2%;
+    }
+
+    .game-section {
+      padding-top: 0%;
+      padding-left: 47%;
+      padding-right: 10%;
+      padding-bottom: 0%;
+    }
+
+    .score-section {
+      padding-top: 5%;
+      padding-left: 48%;
+      padding-right: 10%;
+      padding-bottom: 0%;
+    }
+
+    .game-btn {
+      border: none;
+      background: #343434;
+      color: #fff;
+      padding: 10px;
+      font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+      font-size: 16px;
+      border-radius: 10px;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease;
+    }
+
+    button:hover {
+      color: #ff59f1;
+      border: #ff59ee solid 1px;
+      background: #fff;
+    }
+  }
+}
